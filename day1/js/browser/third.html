@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function handleClick() {
+        let element1 = document.getElementById("name1")
+        let element2 = document.getElementById("name2")
+        element2.value = element1.value
+        }
+    </script>
+</head>
+<body>
+    <label>Enter ur name <input type="text" id="name1" /></label>
+    <br />
+    <label>You entered name <input type="text" id="name2" /></label>
+    <br />
+    <button onclick="handleClick()">Click to see magic</button>
+</body>
+</html>
