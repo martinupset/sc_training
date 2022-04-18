@@ -1,3 +1,10 @@
 1.UI => react: client side
 2.API => springboot (MVC): data u need to show in UI: server side
 3.springboot: java framework => restful api => method to provide data
+
+inheritcance is an object-oriented principle which allows class to have parents child relationship.
+parents is also known as base class, child is known as devied class
+
+collections allows us to store logic related items
+1.list
+2.set => not allows duplicate
